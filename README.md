@@ -2,9 +2,9 @@
 Download UM Files Immediately --- @author: Pablo Guillén Marquina
 
 
-	################
-	# Introducción #
-	################
+	##################
+	## Introducción ##
+	##################
 
 Este script se centra básicamente en descargar los *"Recursos"* de las asignaturas que estemos cursando (y por tanto matriculadas) de la forma más simple, fácil y rápida posible.
 
@@ -22,9 +22,9 @@ Para poder ejecutarlo, debemos introducir los siguientes datos en el script:
 
     
 
- 	#####################
- 	# Args del programa #
- 	#####################
+ 	#######################
+ 	## Args del programa ##
+ 	#######################
 1. Ruta completa de la carpeta destino donde guardar los archivos descargados:
 	"C:\Users\???\Documents\TestUM"
 
@@ -37,9 +37,9 @@ Para poder ejecutarlo, debemos introducir los siguientes datos en el script:
 	"pepe@um.es"	"pepe01"
 
 
-	########
-	# URLs #
-	########
+	##########
+	## URLs ##
+	##########
 *URL:	(conectarse a una unidad de red en Win10)*
 https://www.solvetic.com/tutoriales/article/2985-como-mapear-conectar-unidad-de-red-en-windows-10/
 
@@ -61,9 +61,9 @@ https://stackoverflow.com/questions/10166386/arrays-linked-lists-and-other-data-
 
 
 
-	#####
-	# ? #	// No hagas mucho caso
-	#####
+	#######
+	## ? ##		// No hagas mucho caso
+	#######
 
 *Uso (?):*
 [Código] (\\aulavirtual.um.es@SSL\DavWWWRoot\dav) [Unidad de red]
@@ -82,11 +82,17 @@ https://stackoverflow.com/questions/10166386/arrays-linked-lists-and-other-data-
 + Opciones de xcopy:
   	/m/e/s/h/d/i/c/y
 
-	########################
-	# Añadir unidad de red #
-	########################
-  *Uso:*
-  Net use [Vol_name:] \\aulavirtual.um.es@SSL\DavWWWRoot\dav\[Código_asignatura] /persistent:(yes/no) /user:user password
+
+
+
+```
+##########################
+## Añadir unidad de red ##
+##########################
+```
+
+*Uso:*
+Net use [Vol_name:] \\aulavirtual.um.es@SSL\DavWWWRoot\dav\[Código_asignatura] /persistent:(yes/no) /user:user password
 
 *Ejemplo:*
 Net use Y: \\aulavirtual.um.es@SSL\DavWWWRoot\dav\3890_G_2021_N_N /persistent:yes /user:"pepe@um.es" pepe01
@@ -94,13 +100,13 @@ Net use Y: \\aulavirtual.um.es@SSL\DavWWWRoot\dav\3890_G_2021_N_N /persistent:ye
 
 
 
-	########################
-	# Borrar unidad de red #
-	########################
+	##########################
+	## Borrar unidad de red ##
+	##########################
 + Para desconectar una unidad de red concreta o todas las redes mapeadas Windows 10, usa alguno de estos comandos:
 
   ​	net use [vol]: /delete 	# Borra una unidad de red concreta
-  ​	net use * /delete  		 # Borra todas las unidades de red conectadas
+  ​	net use * /delete  		  # Borra todas las unidades de red conectadas
   
   
 
@@ -162,6 +168,27 @@ Net use Y: \\aulavirtual.um.es@SSL\DavWWWRoot\dav\3890_G_2021_N_N /persistent:ye
   
     * Inicialmente, aunque le demos a "Actualizar" en el "Programador de Tareas", no nos aparecerá la tarea. Esto es normal. Para comprobar que la tarea está bien creada, podemos comprobarlo a través de un sencillo comando de bash en **cmd**: *"schtasks | more"*
   
+      
+  
+* **<u>A TRAVÉS DE LINEA DE COMANDOS</u>:**
+
+  * Crear un comando en bash (por ejemplo: ***"dumfi --update"***), que actualice todas las asignaturas.
+  
     
   
-  * [...]
+* **<u>SUSCRIPCIONES</u>:**
+
+  * Esto se refiere a que un alumno se "suscriba" a una asignatura. De esta forma, se sabe el nombre y el código de la asignatura suscrita y, siempre y cuando el alumno tenga acceso a ella (estando matriculado en ella), puede acceder a toda la información disponible. Esto es:
+    * Descargar "Recursos" virtuales de la carpeta de la asignatura.
+    * Acceder al correo para comprobar, notificar y añadir al calendario, los aspectos importantes de la asignatura. Por ejemplo: **Al abrirse una tarea, se añade en el calendario la fecha de inicio y fin de la misma**; Cuando el profesor responde a un correo, se puede notificar al usuario (aunque de esto ya se encarga el AV).
+
+  
+
+* **<u>AMPLIAR A TODA LA UMU</u>:**
+
+  * Esto se refiere a mediante el uso de una **Base de datos no relacional** (nosql, por ejemplo), poder listar la información de todos los grados y todas las asignaturas de los grados. De esta forma, si una persona hace más de una carrera a la vez, puede acceder a esas asignaturas de una forma más visual y rápida.
+  * Para esto, se usará un interprete de datos en Python para leer la información de los ficheros JSON. De forma que se pueda acceder de forma inmediata a los datos de "las tablas".
+
+s
+
+s

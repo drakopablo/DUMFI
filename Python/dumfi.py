@@ -32,7 +32,7 @@ class dumfi:
         self.sufix =  "_G_2021_N_N"
         # Variables que se pueden cambiar
         self.vol = vol
-        self.opts = f"/m/e/s/h/d/i/c/y"
+        self.opts = f"/m/e/s/h/d/i/c/j/v/q/y"
         # Variables que se deben cambiar (ya sea por comando o a mano)
             # Carpeta destino de los archivos/subcarpetas
         self.dest = dest
