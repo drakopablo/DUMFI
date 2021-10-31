@@ -138,31 +138,31 @@ Net use Y: \\aulavirtual.um.es@SSL\DavWWWRoot\dav\3890_G_2021_N_N /persistent:ye
   
     * Abrimos el panel de control:
   
-      ![programar_la_tarea - panel de control](.\Programar tarea - manual\programar_la_tarea - panel de control.jpg)
+      ![programar_la_tarea - panel de control](Programar tarea - manual/programar_la_tarea - panel de control.jpg)
   
     * Buscamos la opción para crear la tarea: **Herramientas administraticas > Programar tarea**
   
-      ![programar_la_tarea - buscar schtask](C:\Users\Dragg\Desktop\Desktop\Projects\DUMFI\Programar tarea - manual\programar_la_tarea - buscar schtask.jpg)
+      ![programar_la_tarea - buscar schtask](Programar tarea - manual/programar_la_tarea - buscar schtask.jpg)
   
     * Seleccionamos la opción de **"Crear tarea..."** en el menú que vemos a la derecha:
   
-      ![programar_la_tarea - programador de tareas](C:\Users\Dragg\Desktop\Desktop\Projects\DUMFI\Programar tarea - manual\programar_la_tarea - programador de tareas.jpg)
+      ![programar_la_tarea - programador de tareas](Programar tarea - manual/programar_la_tarea - programador de tareas.jpg)
   
     * Creamos la tarea con la información **<u>General</u>**:
   
-      ![programar_la_tarea - creacion tarea](C:\Users\Dragg\Desktop\Desktop\Projects\DUMFI\Programar tarea - manual\programar_la_tarea - creacion tarea.jpg)
+      ![programar_la_tarea - creacion tarea](Programar tarea - manual/programar_la_tarea - creacion tarea.jpg)
   
     * Escogemos las **<u>Condiciones</u>** para la ejecución de la tarea:
   
-      ![programar_la_tarea - condiciones](C:\Users\Dragg\Desktop\Desktop\Projects\DUMFI\Programar tarea - manual\programar_la_tarea - condiciones.jpg)
+      ![programar_la_tarea - condiciones](Programar tarea - manual/programar_la_tarea - condiciones.jpg)
   
     * Elegimos la **<u>Acción</u>** que queremos que realice. En nuestro caso, que ejecute el script *"dumfi.py"*:
   
-      ![programar_la_tarea - ejecutar accion](C:\Users\Dragg\Desktop\Desktop\Projects\DUMFI\Programar tarea - manual\programar_la_tarea - ejecutar accion.jpg)
+      ![programar_la_tarea - ejecutar accion](Programar tarea - manual/programar_la_tarea - ejecutar accion.jpg)
   
     * Seleccionamos los *"triggers"* o **<u>Desencadenantes</u>** que haran que nuestra tarea se ejecute periódicamente:
   
-      ![programar_la_tarea - triggers](C:\Users\Dragg\Desktop\Desktop\Projects\DUMFI\Programar tarea - manual\programar_la_tarea - triggers.jpg)
+      ![programar_la_tarea - triggers](Programar tarea - manual/programar_la_tarea - triggers.jpg)
   
     * Le damos a **"Aceptar"**,  ¡y ya estaría creada nuestra tarea!
   
