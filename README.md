@@ -138,7 +138,7 @@ Net use Y: \\aulavirtual.um.es@SSL\DavWWWRoot\dav\3890_G_2021_N_N /persistent:ye
   
     * Abrimos el panel de control:
   
-      ![programar_la_tarea - panel de control](C:\Users\Dragg\Desktop\Desktop\Projects\DUMFI\Programar tarea - manual\programar_la_tarea - panel de control.jpg)
+      ![programar_la_tarea - panel de control](.\Programar tarea - manual\programar_la_tarea - panel de control.jpg)
   
     * Buscamos la opción para crear la tarea: **Herramientas administraticas > Programar tarea**
   
